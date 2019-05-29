@@ -21,7 +21,7 @@ function get_github(repo) {
 function add_repo(repo, id) {
   get_github(repo).then(data => {
     var logo;
-    switch (x.language) {
+    switch (data.language) {
       case 'R':
         logo = '<i class="fab fa-r-project"></i>';
         break;
