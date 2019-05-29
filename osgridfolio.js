@@ -31,6 +31,27 @@ function add_repo(repo, id) {
       case 'Dockerfile':
         logo = '<i class="fab fa-docker"></i>';
         break;
+      case 'Java':
+        logo = '<i class="fab fa-java"></i>';
+        break;
+      case 'HTML':
+        logo = '<i class="fab fa-html5"></i>';
+        break;
+      case 'CSS':
+        logo = '<i class="fab fa-css3-alt"></i>';
+        break;
+      case 'Python':
+        logo = '<i class="fab fa-python"></i>';
+        break;
+      case 'Vue':
+        logo = '<i class="fab fa-vuejs"></i>';
+        break;
+      case 'Shell':
+        logo = '<i class="fab fa-terminal"></i>';
+        break;
+      case 'PHP':
+        logo = '<i class="fab fa-php"></i>';
+        break;
       default:
         logo = '<i class="fas fa-archive"></i>';
         break;

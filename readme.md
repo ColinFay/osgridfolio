@@ -1,10 +1,17 @@
 # osgridfolio
 
-A dead simple grid portfolio to display your GitHub project. 
+A dead simple grid portfolio to display your GitHub projects. 
+
+See an example at <https://colinfay.me/open-source/>
 
 To add this grid porfolio, add a div with an id that will receive the portfolio, then call `add_repos(repos, "ID")` to fill it.
 
-You'll need to add the `osgridfolio.css` and `osgridfolio.js` files to your page.
+You'll need to add the `osgridfolio.css` and `osgridfolio.js` files to your page. 
+
+```
+git clone https://github.com/ColinFay/osgridfolio.git
+```
+
 
 ```
 <head>
@@ -25,18 +32,12 @@ You'll need to add the `osgridfolio.css` and `osgridfolio.js` files to your page
   <script src="osgridfolio.js"></script>
   <script>
     var repos = ["ColinFay/attempt", 
-    "ColinFay/proustr", 
+    "ColinFay/r-ci", 
+    "ColinFay/r-online", 
     "ColinFay/backyard", 
     "ColinFay/dockerfiler", 
-    "ColinFay/argh", 
     "ColinFay/nessy", 
-    "ColinFay/tidystringdist",  
-    "ColinFay/feathericons", 
     "ColinFay/craneur", 
-    "ColinFay/skeleton", 
-    "ColinFay/geoloc",  
-    "ColinFay/handydandy", 
-    "ColinFay/fryingpane", 
     "ColinFay/wtfismyip"]
     
     add_repos(repos, "colinthings")
@@ -45,5 +46,11 @@ You'll need to add the `osgridfolio.css` and `osgridfolio.js` files to your page
 
 </html>
 ```
+
+## Contribute
+
+Feel free to open a PR. 
+
+The supported language list (i.e. the one getting a font-awesome icon) is non-exhaustive and were manually computed, so please do open a PR to add a language.
 
 ## Under MIT Licence
